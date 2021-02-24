@@ -1,10 +1,15 @@
 import React from 'react'
-import '../Styles/styles.scss';
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import Home from './Home/Home.jsx';
+import './styles.scss';
+
 const App = () => {
     return (
-        <div>
-            Hello from App react!   
-        </div>
+        <Router>
+            <Switch>
+                <Route exact path="/" component={Home} />
+            </Switch>
+        </Router>
     )
 }
 
