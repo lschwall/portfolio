@@ -14,11 +14,11 @@ const Home = () => {
                         software_developer
                     </div>
                     <div className="description">
-                        louisiana_native <br />
                         twenty_six<br />
                         avid_coder<br />
                         avid_gamer<br />
-                        anime_junkie
+                        anime_junkie <br />
+                        louisiana_native
                     </div>
                 </div>
             </div>

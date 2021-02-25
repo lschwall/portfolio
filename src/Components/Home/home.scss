@@ -21,9 +21,16 @@
     color: #343A40
 }
 
+.profession {
+    font-size: 18pt;
+    font-weight: 325;
+    color: #495057;
+}
 .description {
+    font-size: 14pt;
     display: inline-flex;
     flex-direction: column;
+    font-weight: 250;
 }
 
 @media screen and (min-width: 850px) {
@@ -33,6 +40,9 @@
 }
 
 @media screen and (max-width: 851px) {
+    .description {
+        color: #6C757D;
+    }
     .title {
         line-height: 3.5rem;
     }

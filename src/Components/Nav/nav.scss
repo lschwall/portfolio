@@ -13,9 +13,9 @@
     align-items: center;
     width: 30%;
 
-        a { 
+        .nav-link { 
             text-decoration: none;
-            color: #6c757d;
+            color: #ADB5BD;
         }
 }
 
@@ -24,6 +24,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .nav {
+        top: 60vh;
+    }
+    
     .nav-items {
         top: 50%;
         width: 75%;
@@ -31,6 +35,10 @@
 }
 
 @media screen and (max-width: 851px) {
+    .nav {
+        top: 60vh;
+    }
+    
     .nav-items {
         width: 75%;
     }
