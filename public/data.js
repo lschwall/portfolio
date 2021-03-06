@@ -8,7 +8,7 @@ const main = {
     {
       name: 'Github',
       iconName: 'logo-github',
-      link: 'https://github.com/lschwall'
+      link: 'https://github.com/lschwall?tab=repositories'
     },
     {
       name: 'Linkedin',
